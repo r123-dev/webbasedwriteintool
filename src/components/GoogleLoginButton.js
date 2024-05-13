@@ -1,6 +1,5 @@
 import React from 'react';
 import { Button } from 'antd';
-import { GoogleLogin } from 'react-google-login';
 import { auth } from '../firebase.config';
 import { FcGoogle } from 'react-icons/fc';
 import { signInWithRedirect, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
