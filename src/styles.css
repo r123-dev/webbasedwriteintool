@@ -1,0 +1,60 @@
+/* Global styles */
+body {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1890ff;
+}
+
+/* Header styles */
+.header {
+  background-color: #001529; /* Dark blue */
+  padding: 20px;
+  text-align: center;
+}
+
+.header h1 {
+  color: #fff;
+  margin: 0;
+}
+
+/* Content styles */
+.content {
+  padding: 20px;
+}
+
+/* Block styles */
+.block-card {
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.text-area {
+  width: calc(100% - 40px);
+  margin: 20px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.image-input {
+  margin: 20px 0;
+}
+
+/* Button styles */
+.add-btn {
+  margin-right: 10px;
+}
+
+.login-btn {
+ 
+  border-color: #1890ff;
+  color: #fff;
+  background-repeat: no-repeat;
+}
+
+.login-btn:hover {
+  background-color: #40a9ff; /* Light blue */
+  border-color: #40a9ff;
+}
